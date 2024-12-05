@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div className="App row">
       <NavBar/>
-      <button onClick={getData}>getData</button>
+      <button onClick={getData}>getData button</button>
       {
         product.map((p) => {
           return <Products name={p.name} image={p.image} description={p.description} />
